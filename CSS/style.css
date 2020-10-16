@@ -1,0 +1,39 @@
+body {
+    background: #C6C5B9;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    background: #ffffff;
+}
+
+.main-heading {
+    color: blue;
+}
+
+p {
+    color: #26be9d;
+}
+
+.header{
+    background: #f7efefaf;
+}
+
+.secondary-heading {
+    color: #3D0B37;
+    background:#7D53DE;
+}
+
+
+#top {
+    background: #ffffff;
+}
+
+a {
+    color:#b98119;
+}
+
+nav a {
+    color:#db4ec4;
+}
+
