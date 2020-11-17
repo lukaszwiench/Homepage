@@ -1,39 +1,76 @@
 body {
-    background: #C6C5B9;
-    font-family: 'Roboto', sans-serif;
+  background: #c6c5b9;
+  font-family: "Roboto", sans-serif;  
 }
 
 section {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 .main-heading {
-    color: blue;
+  color: blue;
 }
 
 p {
-    color: #26be9d;
+  color: #26be9d;
 }
 
-.header{
-    background: #f7efefaf;
+.header {
+  background: #f7efefaf;
 }
 
 .secondary-heading {
-    color: #3D0B37;
-    background:#7D53DE;
+  color: #3d0b37;
+  background: #7d53de;
+  text-align: center;
 }
 
-
 #top {
-    background: #ffffff;
+  background: #ffffff;
 }
 
 a {
-    color:#b98119;
+  color: #b98119;
 }
 
 nav a {
-    color:#db4ec4;
+  color: #db4ec4;
+}
+
+.navigation {
+  background: #d49ed4;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.navigation__link{
+  color:white;
+  display:inline-block;
+  margin-right: 20px;
+}
+
+.navigation__link--homepage {
+  background: #7d53de;
+  color:black;
+}
+
+.week--summary {
+  padding: 16px;
+  border: 1px #ccc solid;
+}
+.week-summary--special{
+  border:1px #92150c solid ;
+}
+.week--summary__title{
+  color:#21a179;
+}
+
+.week--summary__description {
+  color:#921409;
+}
+
+.main-heading--js {
+text-align: center;
 }
 
