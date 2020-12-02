@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
       rel="stylesheet"
@@ -14,7 +15,9 @@
   <body>
     <header class="header">
       <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">główna</a>
+        <a class="navigation__link navigation__link--homepage" href="index.html"
+          >główna</a
+        >
         <a class="navigation__link" href="nauka-html.html">Nauka html</a>
         <a class="navigation__link" href="nauka-css.html">Nauka css</a>
       </nav>
@@ -59,6 +62,52 @@
             Jeśli chcesz stać się częścią tej grupy, musisz wykazać się otwartą
             głową i dużą ilością wolnego czasu. Nie łam się! zasada numer 1.
           </p>
+          <section>
+            <h4>Lista fajnych znaczników-zagnieżdżone</h4>
+            <ul class="list">
+              <li class="list__item">UL</li>
+              <li class="list__item">OL</li>
+              <li class="list__item">SECTION</li>
+              <h4>Kroki do zrobienia dobrego htmla-zagnieżdżone</h4>
+              <ol>
+                <li>Przeanalizuj treść </li>
+                <li>Podziel ją na sekcje</li>
+                <li>Utwórz pierwszą wersję kodu</li>
+              </ol>
+            </ul>
+            <dl>
+              <dt>div</dt>
+              <dd>opis mojego diva</dd>
+
+              <dt>article</dt>
+              <dd>opis mojego artykułu</dd>
+            </dl>
+          </section>
+          <section>
+            <h4>Rozpiska WTF</h4>
+            <table class="table">
+              <caption>Spis odcinków WTF: co ten frontend</caption>
+              <thead>
+                <tr>
+                  <th>lp</th>
+                  <th>tytuł</th>
+                  <th>Czas trwania</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>Powitanie</td>
+                  <td>05:45 </td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Lorem ipsum, dolor sit amet consectetur adipiscicing elit.Iste quibusdam pariatur liebero</td>
+                  <td>05:45 </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
         </article>
         <article class="week--summary">
           <h3 class="week--summary__title">
@@ -74,7 +123,7 @@
         </article>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       Strona domowa Łukasza Wiencha, wszystkie treści są efektem tworzenia
       szkolenia WTF: Co ten frontend.<a href="#top">Wróć na górę strony</a>
     </footer>
